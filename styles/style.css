@@ -147,6 +147,56 @@
 
 }
 
+.midnight>h1 {
+    width: 642px;
+    height: 176px;
+    margin-left: 120px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.midnight>p {
+    width: 697px;
+    margin-left: 120px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.midnight>input {
+    margin-left: 150px;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: #FFF;
+}
+.midnight>input:hover{
+cursor: pointer;
+background-color: aquamarine;
+}
+.group {
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
 .container {
     background-image: url("../images/Vector.png");
     background-repeat: no-repeat;
@@ -154,6 +204,7 @@
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
+    margin-bottom: 50px;
 }
 
 .container-text {
@@ -184,8 +235,12 @@
     gap: 10px;
     border-radius: 8px;
     box-shadow: white;
+    border: none;
 }
-
+.container-text>button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.351);
+}
 .best>h3 {
     color: #F00;
     margin-left: auto;
@@ -273,6 +328,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .sifat>p {
@@ -288,11 +344,12 @@
 }
 
 .sifat>img {
+    
     width: 140px;
     height: 140px;
     padding-right: 276px;
-
-
+    margin-left:20px;
+    margin-right:auto;
 }
 
 #discount {
@@ -300,7 +357,6 @@
     padding: auto;
     text-align: center;
     align-items: center;
-
 
 }
 
@@ -329,11 +385,9 @@
     font-weight: 900;
     line-height: normal;
 }
-
 .styles {
     color: #F00;
 }
-
 .holyday>p {
     width: 1068px;
     height: 96px;
@@ -413,6 +467,34 @@
     line-height: 32px;
     /* 160% */
 }
+.rec:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.rec4:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.rec5:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.rec6:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.rec7:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.rec8:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+
+
+
 
 #gmailbox {
     height: 616px;
@@ -458,12 +540,19 @@
 .Newsletter>input {
     width: 648px;
     height: 72px;
-    flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
     align-items: center;
     justify-content: center;
     padding-right: auto;
+    margin-left: 300px;
+}
+.Newsletter>input:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.Newsletter>input>::placeholder{
+    padding-left: 30px;
 }
 
 .Newsletter>button {
@@ -473,6 +562,10 @@
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     padding: 0px;
+}
+.Newsletter>button:hover{
+    cursor: pointer;
+    transform: scale(0.8);   
 }
 
 #footer {
@@ -499,13 +592,13 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-   
-}
-hr{
-    background: rgba(255, 255, 255, 0.15);
-    width: 1320px;
-    height: 1px;
 
+}
+.hr{
+    width: 1320px;
+    color: #070211;
+
+    
 }
 .last {
     justify-content: center;
@@ -513,8 +606,27 @@ hr{
     margin-left: 500px;
     margin-right: 0px;
 }
+.pic1:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+}
+.pic2:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+}
+.pic3:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+}
+.pic4:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+}
 
 #copy {
     color: #FFF;
     display: flex;
-}
+    justify-content: center;
+    margin-left:auto;
+    padding: 0px;
+    }
